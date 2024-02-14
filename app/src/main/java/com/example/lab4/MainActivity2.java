@@ -19,7 +19,7 @@ public class MainActivity2 extends AppCompatActivity {
 
         String str = intent.getStringExtra("message_key");
 
-        receiver_msg.setText(str);
+        receiver_msg.setText("hello,"+str);
 
 
     }
